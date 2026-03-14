@@ -1,4 +1,4 @@
-Set-Content -Path C:\Users\jovan\my-python-app\Jenkinsfile -Encoding UTF8 -Value 'pipeline {
+pipeline {
     agent any
 
     stages {
@@ -19,4 +19,4 @@ Set-Content -Path C:\Users\jovan\my-python-app\Jenkinsfile -Encoding UTF8 -Value
         success { echo "Pipeline termine avec succes !" }
         failure { echo "Pipeline en echec !" }
     }
-}'
+}
